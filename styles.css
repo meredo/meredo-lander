@@ -297,10 +297,9 @@ ul {
 }
 
 .hero__inner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero__eyebrow {
@@ -329,13 +328,16 @@ ul {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 40px;
-  max-width: 520px;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero__actions {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Hero Visual */
@@ -947,25 +949,6 @@ ul {
     --section-padding: 80px;
   }
 
-  .hero__inner {
-    grid-template-columns: 1fr;
-    gap: 48px;
-    text-align: center;
-  }
-
-  .hero__subtitle {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .hero__actions {
-    justify-content: center;
-  }
-
-  .hero__graphic {
-    width: 240px;
-    height: 240px;
-  }
 
   .why__inner {
     grid-template-columns: 1fr;
